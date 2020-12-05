@@ -1,0 +1,86 @@
+*************************************************************************
+*************************************************************************
+To initialize a directory  git use below command
+git init
+*************************************************************************
+To know current config file use below command
+git config -l
+*************************************************************************
+To untrack files to stage state use  use below command 
+git add filename
+
+In order to add all files use below command
+git add .
+
+*************************************************************************
+To commit files use below command
+ git commit
+# This is all add all tracked files to git repository
+
+*************************************************************************
+To show the commit message use below command
+
+git log
+
+git log -2
+
+*************************************************************************
+
+Link for git cheat sheet
+https://www.coursera.org/learn/introduction-git-github/supplement/WaYsJ/initial-git-cheat-sheet
+*******************************************************************
+
+below command is used to stage any changes to tracked files and commit them in one step. It can not be used to for untracked files
+
+git commit -a
+
+
+************************************************************************
+
+In order to remove a undesired file use below command
+
+git rm filename
+
+***********************************************************************
+
+inorder to rename a file use below command
+
+git mv old_name new_name
+
+
+Advanced command cheat-sheet for git commands
+
+https://www.coursera.org/learn/introduction-git-github/supplement/39ZMi/advanced-git-cheat-sheet
+
+************************************************************************
+
+Inorder to  restore files to the latest stored snapshot, reverting any changes before staging.
+
+git checkout 
+
+Command used when files are already stages by using (command like git add *)
+
+git reset HEAD undesiredfile
+
+************************************************************************
+git commit --amend allows us to modify and add changes to the most recent commit.
+
+Note: Avoid amending commits that have already been made public
+
+************************************************************************
+
+git revert HEAD 
+
+With git revert, a new commit is created with inverse changes. 
+This cancels previous changes instead of making it as though the original commit never happened.
+
+git revert idname
+
+This idname is the ID you want to use
+
+*************************************************************************
+
+Cheat sheet for git revert 
+
+https://www.coursera.org/learn/introduction-git-github/supplement/zaASG/git-revert-cheat-sheet
+
