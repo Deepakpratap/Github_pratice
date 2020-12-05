@@ -84,3 +84,24 @@ Cheat sheet for git revert
 
 https://www.coursera.org/learn/introduction-git-github/supplement/zaASG/git-revert-cheat-sheet
 
+************************************************************************
+
+After creating new repository in github... In order to use that we need to clone the repo using the command
+
+git clone https://github.com/Deepakpratap/new_repo.git
+
+This will create a repo new_repo in the path
+
+After doing any changes in the repo locally...in order to push the changes after adding and commiting in the repo
+use below command in order to push the changes 
+
+git push
+
+
+this will prompt username and password.It will take all the changes into remote.
+
+Fun fact : If there is 2 factor authenticcation. It will not provide fatal error.
+
+In order to avoid that use token for authentication. Please check below url when you face fatal error
+
+https://stackoverflow.com/questions/29297154/github-invalid-username-or-password
