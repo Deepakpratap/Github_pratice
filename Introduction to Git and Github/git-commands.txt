@@ -105,3 +105,7 @@ Fun fact : If there is 2 factor authenticcation. It will not provide fatal error
 In order to avoid that use token for authentication. Please check below url when you face fatal error
 
 https://stackoverflow.com/questions/29297154/github-invalid-username-or-password
+
+In order to generate token use below site
+
+https://github.com/settings/tokens
